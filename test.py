@@ -100,8 +100,15 @@
 
 # print("hello")
 
-num = [1,2,4,6,11,20]
-seq = 0
-for val in num:
-    seq = val*val
-    print(seq)  
+# num = [1,2,4,6,11,20]
+# seq = 0
+# for val in num:
+#     seq = val*val
+#     print(seq)  
+
+for i in range (1,6):
+    for j in range(0,i):
+        print(i, end="")
+    print()
+# num = list(range(0,41,5))
+# print(num)

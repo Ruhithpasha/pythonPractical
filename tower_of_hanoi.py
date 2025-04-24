@@ -7,5 +7,5 @@ def tower_of_hanoi(n, source, auxiliary, target):
     tower_of_hanoi(n - 1, auxiliary, source, target)
 
 # Example usage:
-num_disks = 3
-tower_of_hanoi(num_disks, 'A', 'B', 'C')
+disks = 3
+tower_of_hanoi(disks, 'A', 'B', 'C')
