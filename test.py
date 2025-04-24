@@ -81,21 +81,27 @@
 # print("Modulus:", r)
 
 
-def biggest(a,b):
-    if a > b:
-        return a
-    else:
-        return b
+# def biggest(a,b):
+#     if a > b:
+#         return a
+#     else:
+#         return b
     
-a = int(input("Enter the first number: "))
-b = int(input("Enter the second number: "))
-result = biggest(a,b)
-print("The biggest number is: ", result)
+# a = int(input("Enter the first number: "))
+# b = int(input("Enter the second number: "))
+# result = biggest(a,b)
+# print("The biggest number is: ", result)
 
-integer = -29
-print("The absolute value of", integer, "is", abs(integer))
-# for x in range(3):
-#     print(x)          
-# print("Hello, World!")    
+# integer = -29
+# print("The absolute value of", integer, "is", abs(integer))
+# # for x in range(3):
+# #     print(x)          
+# # print("Hello, World!")    
 
-print("hello")
+# print("hello")
+
+num = [1,2,4,6,11,20]
+seq = 0
+for val in num:
+    seq = val*val
+    print(seq)  
