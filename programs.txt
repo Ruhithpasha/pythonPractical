@@ -1,0 +1,2 @@
+lab programs
+1. find the gcd of 2 numbers 
