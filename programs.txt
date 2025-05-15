@@ -1,2 +1,4 @@
 lab programs
 1. find the gcd of 2 numbers 
+2. 5 tables programs
+3. python programs to print fibonacci numbers
